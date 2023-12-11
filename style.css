@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+@media only screen and (max-width:480px) {
+    body {
+        padding: 0;
+        margin: 0px;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+
+    .header img {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header svg {
+        position: relative;
+        left: 145px;
+        top: -80px;
+    }
+
+    .header h1 {
+        text-align: center;
+        color: hsl(220, 3%, 19%);
+        font-weight: 600;
+    }
+
+    .header p {
+        text-align: center;
+        color: hsl(210, 10%, 33%);
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 400;
+    }
+
+    .header button {
+        font-weight: 400;
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 5px 0 2px 0px hsl(171, 66%, 44%);
+        border-style: none;
+        position: relative;
+        top: 20px;
+        left: 80px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #mac {
+        font-weight: 400;
+        background-color: hsl(233, 100%, 69%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 0 0 2px 0 hsl(233, 100%, 69%);
+        border-style: none;
+        position: relative;
+        top: 40px;
+        right: -31%;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #track {
+        text-align: center;
+        position: relative;
+        top: 100px;
+        color: hsl(220, 3%, 19%);
+    }
+
+    #trackp {
+        text-align: center;
+        position: relative;
+        top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    #computer {
+        display: block;
+        height: 90%;
+        width: 90%;
+        position: relative;
+        top: 100px;
+        left: 20px;
+    }
+
+    #qs {
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        top: 100px;
+        text-align: center;
+    }
+
+    #qsp {
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    #ic {
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        top: 100px;
+        text-align: center;
+    }
+
+    #icp {
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: 100px;
+        text-align: center;
+    }
+
+    #ch {
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        top: 100px;
+        text-align: center;
+    }
+
+    #chp {
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    #access{
+        color: hsl(220, 3%, 19%);
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+    #accessp{
+        color: hsl(210, 10%, 33%);
+        text-align: center;
+        position: relative;
+        top: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #devices{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: 210px;
+    }
+    #super{
+        text-align: center;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        top: 200px;
+    }
+    #superp{
+        text-align: center;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: 190px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #imgcb{
+        position: relative;
+        top: 200px;
+        left: 170px;
+    }
+    #cb{
+        text-align: center;
+        position: relative;
+        color: hsl(220, 3%, 19%);
+        top: 190px;
+        right: 15px;
+    }
+    #cbp{
+        text-align: center;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: 190px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #imgpt{
+        position: relative;
+        left: 170px;
+        top: 170px;
+    }
+    #pt{
+        text-align: center;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        top: 270px;
+        left: -15px;
+    }
+    #ptp{
+        text-align: center;
+        position: relative;
+        top: 210px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #imgsp{
+        position: relative;
+        left: 170px;
+        top: 170px;
+    }
+    #sp{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        left: -10px;
+    }
+    #spp{
+        text-align: center;
+        position: relative;
+        top: 190px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #microsoft,#google,#hp,#ibm,#vector{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        left: 70px;
+        top: 220px;
+    }
+    #clip{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 200px;
+    }
+    #clipp{
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+        position: relative;
+        top: 200px;
+    }
+    #downbutios{
+        font-weight: 400;
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 5px 0 2px 0px hsl(171, 66%, 44%);
+        border-style: none;
+        position: relative;
+        top: 220px;
+        left: 80px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    #downbutmac{
+        font-weight: 400;
+        background-color: hsl(233, 100%, 69%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 5px 0 2px 0px hsl(233, 100%, 69%);
+        border-style: none;
+        position: relative;
+        top: 250px;
+        left: 80px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .footer{
+        padding: 10px;
+        height: 450px;
+        background-color: whitesmoke;
+        position: relative;
+        top: 300px;
+    }
+    .footer svg{
+        position: relative;
+        top: 50px;
+        left: 130px;
+    }
+    #faq,#cu,#pp,#pk,#ig{
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    #facebook,#twitter,#insta{
+        position: relative;
+        left: 120px;
+        top: 250px;
+        margin-right: px;
+    }
+}
+
+
+@media only screen and (min-width:480px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header img {
+        margin: 0;
+        padding: 0;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    #headersvg {
+        display: block;
+        position: relative;
+        left: 45%;
+        bottom: 300px;
+    }
+
+    .header h1 {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        bottom: 190px;
+        font-size: 50px;
+    }
+
+    .header p {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: -200px;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-size: 22px;
+    }
+
+    .header button {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 0 0 2px 0 hsl(171, 66%, 44%);
+        border-style: none;
+        position: relative;
+        top: -170px;
+        right: -31%;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #mac {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        background-color: hsl(233, 100%, 69%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 5px 0 2px 0px hsl(233, 100%, 69%);
+        border-style: none;
+        position: relative;
+        top: -170px;
+        left: 440px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+
+    #track {
+        display: block;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        left: 20px;
+        top: -20px;
+        color: hsl(220, 3%, 19%);
+        margin-right: 70px;
+        margin-left: 250px;
+        margin-right: 250px;
+
+    }
+
+    #trackp {
+        display: block;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: hsl(210, 10%, 33%);
+        font-size: 18px;
+        position: relative;
+        top: -20px;
+        margin-left: 300px;
+        margin-right: 300px;
+        line-height: 25px;
+
+    }
+
+    #computer {
+        margin: 0%;
+        padding: 0%;
+        object-fit: cover;
+        position: relative;
+        left: -30px;
+    }
+
+    #qs {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        left: 60%;
+        top: -510px;
+        bottom: 30%;
+        display: block;
+        margin-right: 80%;
+
+    }
+
+    #qsp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        left: 60%;
+        top: -520px;
+        text-align: left;
+        margin-right: 75%;
+        line-height: 27px;
+    }
+
+    #ic {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        left: 60%;
+        top: -500px;
+        margin-right: 80%;
+    }
+
+    #icp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        left: 60%;
+        top: -510px;
+        margin-right: 80%;
+        line-height: 27px;
+    }
+
+    #ch {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        left: 60%;
+        top: -490px;
+        margin-right: 80%;
+    }
+
+    #chp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        left: 60%;
+        top: -495px;
+        margin-right: 80%;
+        line-height: 27px;
+    }
+
+    #access {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        bottom: 300px;
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    #accessp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%);
+        font-size: 18px;
+        position: relative;
+        top: -300px;
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    #devices {
+        position: relative;
+        top: -200px;
+        left: 230px;
+    }
+
+    #super {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        top: -150px;
+        text-align: center;
+        margin-right: 250px;
+        margin-left: 250px;
+
+    }
+
+    #superp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        top: -150px;
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 250px;
+
+    }
+
+    #imgcb {
+        position: relative;
+        left: 255px;
+        bottom: 28px;
+    }
+
+    #cb {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        left: 170px;
+        top: -30px;
+        margin-left: 1px;
+        margin-right: 900px;
+    }
+
+    #cbp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%);
+        position: relative;
+        left: -410px;
+        top: -30px;
+        text-align: center;
+        margin-right: 500px;
+        margin-left: 500px;
+        line-height: 25px;
+    }
+
+
+    #pt {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        left: 580px;
+        top: -173px;
+        margin-left: 1px;
+        margin-right: 1000px;
+    }
+
+    #imgpt {
+        position: relative;
+        bottom: 282px;
+        left: 650px;
+    }
+
+    #ptp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%);
+        text-align: center;
+        margin-left: 440px;
+        margin-right: 450px;
+        position: relative;
+        top: -222px;
+        left: 10px;
+
+    }
+
+    #sp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(220, 3%, 19%);
+        position: relative;
+        left: 1000px;
+        top: -333px;
+        margin-left: 1px;
+        margin-right: 1150px;
+    }
+
+    #imgsp {
+        position: relative;
+        left: 1050px;
+        top: -435px;
+    }
+
+    #spp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%);
+        text-align: center;
+        margin-left: 500px;
+        margin-right: 500px;
+        position: relative;
+        left: 420px;
+        top: -383px;
+    }
+
+    #google {
+        position: relative;
+        left: 100px;
+        top: -200px;
+    }
+
+    #ibm {
+        position: relative;
+        left: 200px;
+        top: -200px;
+    }
+
+    #microsoft {
+        position: relative;
+        left: 300px;
+        top: -200px;
+    }
+
+    #hp {
+        position: relative;
+        left: 400px;
+        top: -200px;
+    }
+
+    #vector {
+        position: relative;
+        left: 500px;
+        top: -200px;
+    }
+
+    #clip {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        color: hsl(220, 3%, 19%);
+        text-align: center;
+        position: relative;
+        top: -25px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    #clipp {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400px;
+        color: hsl(210, 10%, 33%);
+        font-size: 18px;
+        text-align: center;
+        margin-left: 350px;
+        margin-right: 350px;
+        position: relative;
+        top: -35px;
+        line-height: 30px;
+    }
+
+    #downbutios {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        background-color: hsl(171, 66%, 44%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 0 0 2px 0 hsl(171, 66%, 44%);
+        border-style: none;
+        position: relative;
+        top: -20px;
+        right: -31%;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #downbutmac {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        background-color: hsl(233, 100%, 69%);
+        border-radius: 25px;
+        width: 250px;
+        height: 55px;
+        box-shadow: 5px 0 2px 0px hsl(233, 100%, 69%);
+        border-style: none;
+        position: relative;
+        top: -20px;
+        left: 440px;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+
+    }
+
+    .footer {
+        padding: 0px;
+        background-color: whitesmoke;
+        height: 150px;
+        margin: 0;
+        position: relative;
+        top: 100px;
+    }
+
+    .footer p {
+        color: hsl(210, 10%, 33%);
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    #faq {
+        position: relative;
+        left: 250px;
+        top: -120px;
+        margin-left: 1px;
+        margin-right: 1000px;
+    }
+
+    #cu {
+        position: relative;
+        left: 250px;
+        top: -100px;
+        margin-left: 1px;
+        margin-right: 1000px;
+    }
+
+    #pp {
+        position: relative;
+        left: 400px;
+        top: -200px;
+        margin-left: 1px;
+        margin-right: 1000px;
+    }
+
+    #pk {
+        position: relative;
+        left: 400px;
+        top: -180px;
+        margin-left: 1px;
+        margin-right: 1000px;
+    }
+
+    #ig {
+        position: relative;
+        left: 570px;
+        top: -280px;
+        margin-left: 1px;
+        margin-right: 1000px;
+    }
+
+    #facebook {
+        position: relative;
+        left: 1100px;
+        margin-bottom: 0%;
+    }
+
+    #twitter {
+        position: relative;
+        left: 1120px;
+        margin-bottom: 0%;
+    }
+
+    #insta {
+        position: relative;
+        left: 1140px;
+    }
+}
